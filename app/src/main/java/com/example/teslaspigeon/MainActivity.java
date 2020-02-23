@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         }
         webView.setWebViewClient(new Callback());
-        webView.loadUrl("http://192.168.1.100:8000");
+        webView.loadUrl("http://163.119.51.123:5000");
         webView.setWebChromeClient(new WebChromeClient(){
             //For Android 3.0+
 //            public void openFileChooser(ValueCallback<Uri> uploadMsg){
